@@ -1,0 +1,40 @@
+body {
+  background-color: yellow;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.top {
+  background-color: red;
+  margin: 0px;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: green;
+  text-align: center;
+}
+
+.down {
+  background-color: green;
+  margin: 0px;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+  text-align: center;
+}
